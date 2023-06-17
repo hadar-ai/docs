@@ -12,4 +12,4 @@ Site can now be viewed at http://localhost:500
 
 ## Publishing
 
-`git push` to `main` branch. Github Actions will do the rest.
+`git push` to `master` branch. Github Actions will do the rest.
