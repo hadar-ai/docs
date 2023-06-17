@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740327968741">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.0.3">
+
+    <!-- Primary Meta Tags -->
+    <title>Whitepaper</title>
+    <meta name="title" content="Whitepaper">
+    <meta name="description" content="Data is the lifeblood of AI development, powering the algorithms that drive innovation and transformation." />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://docs.hadar.ai/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://docs.hadar.ai/">
+    <meta property="og:title" content="Whitepaper">
+    <meta property="og:description" content="Data is the lifeblood of AI development, powering the algorithms that drive innovation and transformation.">
+    <meta property="og:image" content="https://docs.google.com/drawings/d/12345/export/png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://docs.hadar.ai/">
+    <meta property="twitter:title" content="Whitepaper">
+    <meta property="twitter:description" content="Data is the lifeblood of AI development, powering the algorithms that drive innovation and transformation.">
+    <meta property="twitter:image" content="https://docs.google.com/drawings/d/12345/export/png">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="resources/css/retype.css?v=3.0.3.740327968741" rel="stylesheet" />
+
+    <script type="text/javascript" src="resources/js/config.js?v=3.0.3.740327968741" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=3.0.3.740327968741" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="" class="flex items-center leading-snug text-2xl">
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Hadar.ai</span>
+                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Documentation</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://hadar.ai">Goto hadar.ai homepage</a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://hadar.ai">Goto hadar.ai homepage</a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="whitepaper" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#whitepaper">#</doc-anchor-trigger>
+        <span>Whitepaper</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="incentivized-decentralized-data-crowdsourcing">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#incentivized-decentralized-data-crowdsourcing">#</doc-anchor-trigger>
+        <span>Incentivized Decentralized Data Crowdsourcing</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="summary">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#summary">#</doc-anchor-trigger>
+        <span>Summary</span>
+    </h1>
+</doc-anchor-target>
+<p>Data is the lifeblood of AI development, powering the algorithms that drive innovation and transformation. However, the current landscape presents two major challenges: <strong>data isolation</strong> and <strong>underserved niche datasets</strong>.</p>
+<ul>
+<li>Large enterprises are increasingly treating their data as proprietary assets, imposing high barriers to access and stifling collaboration. This data isolation limits the potential for innovation and creates an uneven playing field.</li>
+<li>Collecting data from niche verticals poses a significant hurdle. Fine-tuning AI models requires diverse and specialized datasets that are often scattered and hard to obtain. This scarcity of niche data restricts the ability to develop accurate and effective AI solutions in specific domains.</li>
+</ul>
+<p>At DataX, we believe that a decentralized data bank that is openly curated and accessible by the crowd can help democratize data and promote innovation.</p>
+<p>Our platform incentivizes people to request, contribute, verify, and process high-quality datasets by leveraging tokenomics, and the individuals who supply and curate the data are the ones who profit from its future usage which drove by its very own high quality.</p>
+<p>Through our platform, individuals and organizations can easily access and contribute high-quality datasets, allowing for comprehensive and diverse data sets that fuel breakthroughs. We empower data scientists, researchers, and innovators to fine-tune their AI models with the specific data they need, regardless of their niche vertical.</p>
+<p>**Keywords: **data bank, open, crowdsourced, incentivized, decentralized, high quality</p>
+<doc-anchor-target id="how-it-works">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-it-works">#</doc-anchor-trigger>
+        <span>How it works</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="stakeholders">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#stakeholders">#</doc-anchor-trigger>
+        <span>Stakeholders</span>
+    </h2>
+</doc-anchor-target>
+<p>Note that the different roles outlined here are not mutually exclusive. Indeed, we expect that many users will play multiple roles within the system.</p>
+<table>
+  <tr>
+   <td><strong>User role</strong>
+   </td>
+   <td><strong>Action</strong>
+   </td>
+   <td><strong>Reward</strong>
+   </td>
+   <td><strong>Cost</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Owner
+   </td>
+   <td>Owner of a dataset - either a Supplier or Curator.
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Supplier
+   </td>
+   <td>Provide high-quality datasets
+   </td>
+   <td>Paid for consumer usage of datasets they originally provided, as well as by curators for data provision.
+   </td>
+   <td>None
+   </td>
+  </tr>
+  <tr>
+   <td>Verifier
+   </td>
+   <td>Verify datasets for quality
+   </td>
+   <td>Paid for consumer usage of datasets they curated as well as by curators for data quality verification.
+   </td>
+   <td>None
+   </td>
+  </tr>
+  <tr>
+   <td>Curator
+   </td>
+   <td>Request datasets via tenders.
+   </td>
+   <td>Paid for consumer usage of datasets they originally requested.
+   </td>
+   <td>Pay suppliers and verifiers for dataset collection.
+   </td>
+  </tr>
+  <tr>
+   <td>Consumer
+   </td>
+   <td>Access data
+   </td>
+   <td>None
+   </td>
+   <td>Pay the platform for accessing datasets via API.
+   </td>
+  </tr>
+  <tr>
+   <td>Sponsor
+   </td>
+   <td>Sponsor cost of accessing a dataset
+   </td>
+   <td>None
+   </td>
+   <td>Cover the platform and supplier costs of accessing a dataset.
+   </td>
+  </tr>
+</table>
+<doc-anchor-target id="suppliers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#suppliers">#</doc-anchor-trigger>
+        <span>Suppliers</span>
+    </h3>
+</doc-anchor-target>
+<p>Entities who supply/upload datasets for entry into the database. They can upload datasets ad-hoc and set pricing terms and/or fulfill the dataset requirements of curators.</p>
+<doc-anchor-target id="curators">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#curators">#</doc-anchor-trigger>
+        <span>Curators</span>
+    </h3>
+</doc-anchor-target>
+<p>Users who place requests for datasets and allow _Suppliers _to bid on fulfilling those requests. They may also optionally allow verifiers to bid on said requests for verification purposes. They are responsible for signing off on the quality of said datasets prior to them being made available for use by <em>Consumers</em>.</p>
+<ul>
+<li><em>Curators will need to be DOXXED since we want them to be held accountable for misusing their vetting powers.</em></li>
+</ul>
+<doc-anchor-target id="verifiers-">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#verifiers-">#</doc-anchor-trigger>
+        <span>Verifiers** **</span>
+    </h3>
+</doc-anchor-target>
+<p>Responsible for vetting the quality of the data entered by <em>Suppliers</em>. Verifiers are an optional add-on - curators may choose to verify the data themselves or utilize the services of a verifier. Any community members can apply to be a verifier and tag themselves with appropriate expertise.</p>
+<doc-anchor-target id="consumers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#consumers">#</doc-anchor-trigger>
+        <span>Consumers</span>
+    </h3>
+</doc-anchor-target>
+<p>Users who use datasets available in our database to train AI models, via our API.</p>
+<doc-anchor-target id="sponsors">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sponsors">#</doc-anchor-trigger>
+        <span>Sponsors</span>
+    </h3>
+</doc-anchor-target>
+<p>Users who put up liquid capital to pay for the cost of accessing one or more datasets.</p>
+<doc-anchor-target id="process-flow">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#process-flow">#</doc-anchor-trigger>
+        <span>Process flow</span>
+    </h2>
+</doc-anchor-target>
+<p>The following diagram gives a brief overview of all how each of the aforementioned types of users use the platform and interact with each other:</p>
+<doc-anchor-target id="section">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#section">#</doc-anchor-trigger>
+        <span></span>
+    </h3>
+</doc-anchor-target>
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See <a href="https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference">Google Drawings by reference</a> for details. The img URL below is a placeholder. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p><figure class="content-center">
+    <img src="https://docs.google.com/drawings/d/12345/export/png" alt="drawing" />
+    <figcaption class="caption">drawing</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="supplier-led-dataset-publishing">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#supplier-led-dataset-publishing">#</doc-anchor-trigger>
+        <span>Supplier-led dataset publishing</span>
+    </h3>
+</doc-anchor-target>
+<p>Our platform is intended to be open for suppliers to upload new datasets as and when they choose. This allows for dataset and API pricing competition between suppliers and for outdated datasets to be deprecated over time through natural market choice.</p>
+<p>The rough process:</p>
+<ol>
+<li>A supplier uploads a new dataset and describes its features via metadata</li>
+<li>They can optionally choose to request verifiers to verify the quality of the uploaded data.
+<ol>
+<li>Note that automated verification algorithms built into the platform will be executed against any and all uploaded data regardless.</li>
+</ol>
+</li>
+<li>Once verification is complete, the supplier sets the price of accessing the data.
+2. <em>The supplier can also set the price of the dataset to be 0, in which case they do not earn anything from consumers accessing that dataset later on.</em></li>
+<li>The data is now made publicly available via the platform API.
+3. Any Verifiers involved in the process will receive a share of the revenue earned from consumers accessing the data.
+1. <em>If the dataset price is 0 then the verifiers do not earn anything from consumers accessing that dataset later on.</em></li>
+<li>Suppliers can continue to provide data with rich metadata even when there’s no curator
+4. Again, they can optionally choose to pay Verifiers to verify that the data matches the suppliers’ description.</li>
+</ol>
+<p><strong>Note:</strong> Every dataset will have metadata indicating whether it has been verified or not and by whom. Data verified by known Verifiers will be considered more trustworthy by the community and thus charge a higher premium. Thus, it’s in a supplier’s interest to assign Verifiers to verify the quality of the data that they upload.</p>
+<doc-anchor-target id="curator-led-dataset-publishing">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#curator-led-dataset-publishing">#</doc-anchor-trigger>
+        <span>Curator-led dataset publishing</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="step-1-curator---supplier-matching-auction">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-1-curator---supplier-matching-auction">#</doc-anchor-trigger>
+        <span>Step 1: Curator &lt;-&gt; Supplier matching auction</span>
+    </h4>
+</doc-anchor-target>
+<ol start="6">
+<li>The curator creates a tender requesting data with a specific set of features.
+5. They can also optionally request at least a certain no. of rows of data.
+6. They can also optionally request for verifiers to apply for verification bids
+2. Note that they can choose to invite known verifiers whom they’ve previously worked with to come and bid.</li>
+<li>Suppliers can bid for the tender.</li>
+<li>Verifiers can bid for the tender too, if verification has been requested.</li>
+<li>Curator can choose multiple desirable bids from both suppliers and verifiers. At Least one supplier bid must be chosen.</li>
+<li>The required amount of tokens covering all chosen bids in aggregate is taken from the Curator wallet and escrowed by the platform</li>
+</ol>
+<p>For extremely niche data sets, the Curator will obviously expect to receive more costly bids. And vice versa.</p>
+<doc-anchor-target id="step-2-data-entry-and-quality-control">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-2-data-entry-and-quality-control">#</doc-anchor-trigger>
+        <span>Step 2: Data entry and quality control</span>
+    </h4>
+</doc-anchor-target>
+<ol>
+<li>Supplier enters data into the database via API / upload / etc.</li>
+<li>The Curator and Verifiers check the data in order to sign off on its quality. Data checking is done by viewing it through our website and utilising the tools there-in to check validity.
+<ol>
+<li><em>None of the data is available via the API at this point, as doing so otherwise would otherwise allow a curator to build a model without yet signing off on quality. This incentivizes the curator, to be honest about the sign-off.</em></li>
+<li><em>In the case of Verifiers:</em>
+<ol>
+<li>Curators can decide to give the quorum of verifiers the final say or keep that privilege for themselves</li>
+<li>Any given verifier can raise an issue with the data, but a majority will need to decide on a final decision.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>If the Curator signs off then:
+3. The Suppliers and Verifiers receive tokens from escrow.
+3. <em>The platform takes a fee from suppliers’ and verifiers’ earnings.</em>
+4. The full data is now available via the platform API</li>
+<li>If the Curator requests improvements:
+5. The tokens stay in escrow.
+6. The data remains unavailable via the platform API.
+7. The Curator provides specific improvements needed, and Suppliers upload updated data accordingly for another round of verification.
+8. There will be a 180-day deadline for these changes to be made.
+9. If the curator fails to sign off on the data after 180 days, the sign-off will automatically be assumed.
+10. If the Suppliers fail to upload new data within 180 days then the request will be considered a failure and the Curator sign-off is impossible.
+4. In this case, the escrowed tokens go back to the Curator. The data will be destroyed.</li>
+</ol>
+<p>When a Supplier believes there’s a false negative from the Verifiers, they can raise a dispute:</p>
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See <a href="https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference">Google Drawings by reference</a> for details. The img URL below is a placeholder. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p><figure class="content-center">
+    <img src="https://docs.google.com/drawings/d/12345/export/png" alt="drawing" />
+    <figcaption class="caption">drawing</figcaption>
+</figure>
+</p>
+<p>The process:</p>
+<ul>
+<li>Submit a dispute and put up a collateral of 25% of the rewards that they could have received had the data qualified</li>
+<li>The platform randomly selects a pool of independent verifiers from a list of qualified and trusted users on the platform</li>
+<li>These verifiers are required to meet a certain level of expertise and experience in the relevant field</li>
+<li>The verifiers are provided with the disputed data and asked to evaluate it using the same criteria as the initial verifiers</li>
+<li>The results of the independent verification are compared to the initial verifiers’ review to determine if there were any inconsistencies or biases</li>
+<li>If the independent review finds that the initial verifiers’ reviews were unfair:
+<ul>
+<li>The collateralized tokens will be returned to suppliers</li>
+<li>The Supplier is compensated and data will be accepted.</li>
+<li>Secondary Verifiers will share revenue later on from API consumption requests.</li>
+</ul>
+</li>
+<li>If the independent review confirms the initial peer review:
+<ul>
+<li>The dispute is considered resolved</li>
+<li>The staked tokens will be taken from Supplier and equally divided among the new Verifiers.</li>
+<li>The submitted data will be removed.</li>
+</ul>
+</li>
+</ul>
+<doc-anchor-target id="consumer-data-api-consumption">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#consumer-data-api-consumption">#</doc-anchor-trigger>
+        <span>Consumer data API consumption</span>
+    </h3>
+</doc-anchor-target>
+<ol>
+<li>Consumer setups up their model and funds their account with USDC.</li>
+<li>API requests to fetch rows of data incur a cost.</li>
+<li>API cost is split between the platform and the original curators, verifiers and suppliers of the data.</li>
+</ol>
+<doc-anchor-target id="sponsoring-data-access">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sponsoring-data-access">#</doc-anchor-trigger>
+        <span>Sponsoring data access</span>
+    </h3>
+</doc-anchor-target>
+<ol>
+<li>A sponsor selects a dataset they wish to sponsor</li>
+<li>They add capital to the platform to cover the costs of consumers accessing that data</li>
+<li>They tell the world about their sponsorship</li>
+</ol>
+<doc-anchor-target id="pricing-and-tokenomics">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pricing-and-tokenomics">#</doc-anchor-trigger>
+        <span>Pricing and Tokenomics</span>
+    </h1>
+</doc-anchor-target>
+<p>The platform is designed to be self-sustaining. It accomplishes this through priced access to data as well as monetary incentives for users who contribute and verify high-quality datasets.</p>
+<p>All bid/offer pricing and API fees are denominated in USDC, a US Dollar pegged stablecoin in the bockchain ecosystem. This allows for price predictability and avoids wild fluctuations due to speculative action around a non-stable token. Onboarding non-crypto individuals and institutions to USDC will also be easier to facilitate.</p>
+<doc-anchor-target id="api-pricing-models">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-pricing-models">#</doc-anchor-trigger>
+        <span>API pricing models</span>
+    </h2>
+</doc-anchor-target>
+<p>We will allow Supplier and Curators to set different types of pricing for their datasets:</p>
+<ul>
+<li>Per-row micro-transaction pricing</li>
+<li>Pricing for bulk batch sizes (e.g 10k rows at price point A, 50k rows at B, etc).</li>
+<li>Single price for entire dataset.</li>
+</ul>
+<p>In addition, there will be a base cost for accessing any API, priced in terms of USDC / Gigabyte downloaded via the API. The exact price for this will be determined closer to our production launch once our infrastructure is established.</p>
+<doc-anchor-target id="payments">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#payments">#</doc-anchor-trigger>
+        <span>Payments</span>
+    </h2>
+</doc-anchor-target>
+<p>Users receive payment in the form of MLD. Specifically, USDC revenue will be used to purchase MLD from a DEX, to be deposid into our staking contract on the recipient’s behalf. They may unstake at any time. They can also choose to opt out of this system and have their USDC payment sent directly to thor wallet. However, staking MLD comes with a no. of benefits as detailed below.</p>
+<doc-anchor-target id="fees">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fees">#</doc-anchor-trigger>
+        <span>Fees</span>
+    </h2>
+</doc-anchor-target>
+<p>The platform charges a commission on revenue earned by curators, suppliers and verifiers:</p>
+<ul>
+<li>New dataset creation payouts to suppliers and verifiers:
+<ul>
+<li>25% of their earnings go to the platform.</li>
+</ul>
+</li>
+<li>API consumption payouts to suppliers, verifiers and curators:
+<ul>
+<li>25% of their earnings go to the platform</li>
+</ul>
+</li>
+</ul>
+<doc-anchor-target id="dao">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dao">#</doc-anchor-trigger>
+        <span>DAO</span>
+    </h2>
+</doc-anchor-target>
+<p>The platform will be governed by a DAO. Our governance token is called MLD (Machine Learning Data). It will have a maximum supply of 10,000,000.</p>
+<doc-anchor-target id="staking">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#staking">#</doc-anchor-trigger>
+        <span>Staking</span>
+    </h3>
+</doc-anchor-target>
+<p>Obtaining this token and staking it in the platform entitles the staker to a share of our platform’s revenue, proportional to their stake vs the global staked amount.</p>
+<p><strong>Note: we need to check if this is legally possible</strong></p>
+<p>Specifically, the proportion of platform revenue allocated to stakers is 50%.</p>
+<p>Stakers are also rewarded through higher participation probabilities:</p>
+<ul>
+<li>Verifiers with holdings exceeding 500 MLD for longer than 90 days stand a higher chance of being chosen to verify a dataset.
+<ul>
+<li>This will be implemented via a verifier “credibility” score shown next to a verifier’s profile id. The score will incorporate a number of factors such as no. of previous successful verifications, amount and duration of staked MLD, etc.</li>
+</ul>
+</li>
+</ul>
+<doc-anchor-target id="treasury">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#treasury">#</doc-anchor-trigger>
+        <span>Treasury</span>
+    </h2>
+</doc-anchor-target>
+<p>All fees earned by the platform - denominated in USDC - will go into the platform treasury, governed by the DAO.</p>
+<p>At certain times, the DAO may, at its discretion, vote to use a portion of treasury funds to buy and burn a percentage of the MLD circulating supply from the market to increase scarcity and further drive value to the token.</p>
+<doc-anchor-target id="tokenomics">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tokenomics">#</doc-anchor-trigger>
+        <span>Tokenomics</span>
+    </h2>
+</doc-anchor-target>
+<p>Note that MLD will only be obtainable via the token sale and subsequently through exchanges.</p>
+<doc-anchor-target id="distribution">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#distribution">#</doc-anchor-trigger>
+        <span>Distribution</span>
+    </h3>
+</doc-anchor-target>
+<table>
+  <tr>
+   <td><strong>Total supply</strong>
+   </td>
+   <td><p style="text-align: right">
+10,000,000</p>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong><em>Vesting (months):</em></strong>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Lock-up period</strong>
+   </td>
+   <td><p style="text-align: right">
+12</p>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Vesting duration</strong>
+   </td>
+   <td><p style="text-align: right">
+48</p>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong><em>Allocations:</em></strong>
+   </td>
+   <td><p style="text-align: right">
+<strong><em>%</em></strong></p>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>DEX liquidity</strong>
+   </td>
+   <td><p style="text-align: right">
+5</p>
+   </td>
+   <td><p style="text-align: right">
+500,000</p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Founders</strong>
+   </td>
+   <td><p style="text-align: right">
+15</p>
+   </td>
+   <td><p style="text-align: right">
+1,500,000</p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Employee pool</strong>
+   </td>
+   <td><p style="text-align: right">
+15</p>
+   </td>
+   <td><p style="text-align: right">
+1,500,000</p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Investors</strong>
+   </td>
+   <td><p style="text-align: right">
+10</p>
+   </td>
+   <td><p style="text-align: right">
+1,000,000</p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Advisors</strong>
+   </td>
+   <td><p style="text-align: right">
+5</p>
+   </td>
+   <td><p style="text-align: right">
+500,000</p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Launch partners</strong>
+   </td>
+   <td><p style="text-align: right">
+10</p>
+   </td>
+   <td><p style="text-align: right">
+1,000,000</p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Treasury</strong>
+   </td>
+   <td><p style="text-align: right">
+40</p>
+   </td>
+   <td><p style="text-align: right">
+2,000,000</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td><p style="text-align: right">
+100</p>
+   </td>
+   <td><p style="text-align: right">
+10,000,000</p>
+   </td>
+  </tr>
+</table>
+<doc-anchor-target id="data">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data">#</doc-anchor-trigger>
+        <span>Data</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="licensing">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#licensing">#</doc-anchor-trigger>
+        <span>Licensing</span>
+    </h2>
+</doc-anchor-target>
+<p>All data will be under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike</a> license.</p>
+<doc-anchor-target id="architecture">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#architecture">#</doc-anchor-trigger>
+        <span>Architecture</span>
+    </h2>
+</doc-anchor-target>
+<p>To optimize for data availability while controlling costs, datasets will be stored centrally on commercial cloud-hosting services. We will utilize serverless functions (e.g., Cloudflare Workers) to ensure low-latency access from around the globe.</p>
+<p>Storage will be in a data lake / warehouse??</p>
+<p>When uploading data, suppliers are required to provide rich meta data which makes data search easy</p>
+<doc-anchor-target id="quality-control">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#quality-control">#</doc-anchor-trigger>
+        <span>Quality control</span>
+    </h2>
+</doc-anchor-target>
+<p>Ensuring high-quality data or providing sufficient tooling for data quality measures is critical for the success of our platform. To achieve this, we will implement the following measures for data quality control:</p>
+<doc-anchor-target id="automated-quality-control">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#automated-quality-control">#</doc-anchor-trigger>
+        <span>Automated Quality Control</span>
+    </h3>
+</doc-anchor-target>
+<p>Our platform will provide automated tools and plugins to measure data completeness and validity. Automated quality control measures include:</p>
+<ul>
+<li><strong>Completeness</strong>: Check for missing, duplications, outliers, or null values</li>
+<li><strong>Validity</strong>: Check for formatting errors, such as inconsistent data types or invalid characters</li>
+<li><strong>Impact:</strong> we need a way to measure the impact of the data, especially for step 4. One potential way is to randomly select certain ML models and measure improved model performance</li>
+</ul>
+<p>These automated quality control measures will all be enforced by default, be made public to all participants beforehand, and flag any data that falls below a certain threshold. Curators can reduce or demand additional automated checks to be done, suppliers will be required to correct or provide explanations for flagged data.</p>
+<doc-anchor-target id="curator--verifier-review">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#curator--verifier-review">#</doc-anchor-trigger>
+        <span>Curator / Verifier Review</span>
+    </h3>
+</doc-anchor-target>
+<p>The peer review process will involve a team of subject matter experts who will evaluate the data based on criteria that were made public when requesting the data. Examples:</p>
+<ul>
+<li><strong>Relevance</strong>: The data is relevant to the research question or use case.</li>
+<li><strong>Completeness</strong>: The data is comprehensive and includes all relevant information.</li>
+<li><strong>Accuracy</strong>: The data is accurate and verified through external sources, if necessary.</li>
+<li><strong>Consistency</strong>: The data is consistent and contains no obvious discrepancies.</li>
+<li><strong>Validity</strong>: The data is valid and meets any required formatting standards.</li>
+</ul>
+<p>The review will be conducted on the full data set, which will be made available through our platform dashboard interface but not through our API. Because data will not be downloadable via our API until it has been finalized, we will provide a system whereby stakeholders can develop and upload additional tooling for data verification within our online interface. This will give stakeholders the flexibility they need to run custom heuristics against the dataset for validity purposes, while at the same time enhancing the overall value of our ecosystem thanks to new and improved tooling.</p>
+<doc-anchor-target id="versioning">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#versioning">#</doc-anchor-trigger>
+        <span>Versioning</span>
+    </h3>
+</doc-anchor-target>
+<p>We will implement version control for datasets. Specifically, there will be per-row version control. This will enable all parties who modify and curate dataset rows to track changes and rollback if necessary.</p>
+<p>In addition, we will enable per-dataset change tracking. Once some rows have been modified and signed off as final, the system will increment the overall dataset version. This enables consumers to know when a newer version of the dataset is available as well make sure that the version they’re currently using doesn’t change due to new data.</p>
+<doc-anchor-target id="subset-tagging">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#subset-tagging">#</doc-anchor-trigger>
+        <span>Subset Tagging</span>
+    </h3>
+</doc-anchor-target>
+<p>We will allow for subsets of a dataset to be tagged with arbitrary labels. Such tagged subsets will then be fetchable via the API. This will allow users to train models on subsets of a dataset that may have particular properties that are useful to them.</p>
+<p>Tagging will usually be done by curators, suppliers, and verifiers on a row-by-row basis. Batch tagging of a selection of rows will also be possible.</p>
+<doc-anchor-target id="faq">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#faq">#</doc-anchor-trigger>
+        <span>FAQ</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="why-dao">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-dao">#</doc-anchor-trigger>
+        <span>Why DAO?</span>
+    </h2>
+</doc-anchor-target>
+<p>Decentralized Autonomous Organizations (DAOs) ensure that no single entity or person can make unilateral decisions about the use of data. This helps prevent data isolation and ensures that decision-making power is distributed among the community, promoting transparency and accountability.</p>
+<doc-anchor-target id="why-crypto">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-crypto">#</doc-anchor-trigger>
+        <span>Why crypto?</span>
+    </h2>
+</doc-anchor-target>
+<p>Cryptocurrency incentivizes global participation by providing fast and easy off-ramps for payments. This promotes a decentralized economy where anyone can contribute to the data ecosystem and be rewarded for their efforts.</p>
+<doc-anchor-target id="why-centralized-storage">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-centralized-storage">#</doc-anchor-trigger>
+        <span>Why centralized storage?</span>
+    </h2>
+</doc-anchor-target>
+<p>While we strive for decentralization in decision-making, centralized storage provides the necessary infrastructure to make data accessible and usable, and cost-manageable for everyone.</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "Whitepaper", isRoot: true, level: 0, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>
