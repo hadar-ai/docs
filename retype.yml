@@ -1,0 +1,34 @@
+input: .
+output: .retype
+url: https://docs.hadar.ai
+branding:
+  title: Hadar.ai
+  label: Documentation
+links:
+- text: Goto hadar.ai homepage
+  link: https://hadar.ai
+exclude:
+- .retype
+- .retype/**
+- .git
+- .git/**
+- .github
+- .github/**
+- .vscode
+- .vscode/**
+- .gitignore
+- .gitignore/**
+- .gitattributes
+- .gitattributes/**
+- .gitmodules
+- .gitmodules/**
+- .gitkeep
+- .gitkeep/**
+- node_modules
+- node_modules/**
+- README.md
+- LICENSE.md
+- package.json
+- package-lock.json
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."

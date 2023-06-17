@@ -1,0 +1,23 @@
+{
+  "name": "@hadar-ai/docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Documentation website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "retype start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadar-ai/docs.git"
+  },
+  "author": "Ramesh Nair <ram@hiddentao.com>",
+  "license": "GFDL-1.3-or-later",
+  "bugs": {
+    "url": "https://github.com/hadar-ai/docs/issues"
+  },
+  "homepage": "https://github.com/hadar-ai/docs#readme",
+  "devDependencies": {
+    "retypeapp": "^3.0.3"
+  }
+}
