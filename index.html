@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.741506978358">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.741509515116">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="resources/css/retype.css?v=3.0.3.741506978358" rel="stylesheet" />
+    <link href="resources/css/retype.css?v=3.0.3.741509515116" rel="stylesheet" />
 
-    <script type="text/javascript" src="resources/js/config.js?v=3.0.3.741506978358" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="resources/js/config.js?v=3.0.3.741509515116" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=3.0.3.741506978358" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=3.0.3.741509515116" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -261,68 +261,6 @@
 </tbody>
 </table>
 </div>
-<table>
-  <tr>
-   <td><strong>User Role</strong>
-   </td>
-   <td><strong>Action</strong>
-   </td>
-   <td><strong>Reward</strong>
-   </td>
-   <td><strong>Cost</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Consumer
-   </td>
-   <td>Access data
-   </td>
-   <td>None
-   </td>
-   <td>Pay for accessing datasets 
-   </td>
-  </tr>
-  <tr>
-   <td>Curator
-   </td>
-   <td>Request and verify datasets; set price terms
-   </td>
-   <td>Paid for consumer usage of requested datasets
-   </td>
-   <td>Pay suppliers and verifiers (if employed)  for dataset collection
-   </td>
-  </tr>
-  <tr>
-   <td>Supplier
-   </td>
-   <td>Provide high-quality datasets;  set price terms
-   </td>
-   <td>Paid for consumer usage of provided datasets and by curators for data provision
-   </td>
-   <td>None
-   </td>
-  </tr>
-  <tr>
-   <td>Verifier
-   </td>
-   <td>Verify datasets for quality
-   </td>
-   <td>Paid for consumer usage of verified datasets and by curators for data verification
-   </td>
-   <td>None
-   </td>
-  </tr>
-  <tr>
-   <td>Sponsor
-   </td>
-   <td>Sponsor cost of accessing a dataset
-   </td>
-   <td>To be determined (recognition, tax benefits, etc.)
-   </td>
-   <td>Cover the costs of accessing a dataset
-   </td>
-  </tr>
-</table>
 <doc-anchor-target id="consumers">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#consumers">#</doc-anchor-trigger>
@@ -337,12 +275,6 @@
     </h3>
 </doc-anchor-target>
 <p>Place requests for datasets and allow Suppliers to bid on fulfilling those requests. Curators also set verification criteria that could be fulfilled by themselves or by Verifiers. They are responsible for setting price terms and signing off on the quality of datasets prior to them being made available for use by Consumers. Curators play a crucial role in maintaining the quality and diversity of data in the ecosystem.</p>
-<doc-anchor-target id="suppliers">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#suppliers">#</doc-anchor-trigger>
-        <span>Suppliers</span>
-    </h3>
-</doc-anchor-target>
 <doc-anchor-target id="suppliers">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#suppliers">#</doc-anchor-trigger>
@@ -373,12 +305,6 @@
     </h2>
 </doc-anchor-target>
 <p>The following diagram gives a brief overview of how each of the aforementioned types of users uses the platform and interacts with each other:</p>
-<doc-anchor-target id="section">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section">#</doc-anchor-trigger>
-        <span></span>
-    </h3>
-</doc-anchor-target>
 <doc-anchor-target id="supplier-led-dataset-publishing">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#supplier-led-dataset-publishing">#</doc-anchor-trigger>
@@ -600,12 +526,6 @@
         <span>Transaction and Usage Records</span>
     </h4>
 </doc-anchor-target>
-<doc-anchor-target id="transaction-and-usage-records">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#transaction-and-usage-records">#</doc-anchor-trigger>
-        <span>Transaction and Usage Records</span>
-    </h4>
-</doc-anchor-target>
 <ul>
 <li><strong>Usage History:</strong> Consumers have access to their usage history, which gives a detailed account of their data consumption. This includes the number of API requests, the datasets accessed, the total cost incurred, and the timestamp of access.</li>
 <li><strong>Invoice Generation:</strong> On a monthly basis, an invoice is generated for consumers. The invoice includes a breakdown of all the API requests and the corresponding costs.</li>
@@ -647,12 +567,6 @@
 <li><strong>Bulk batch pricing:</strong> This model offers pricing tiers based on the size of the data batch accessed (e.g., 10k rows at price point A, 50k rows at price point B). It allows consumers to access large amounts of data at a reduced cost per row.</li>
 <li>**Single price for the entire dataset: **This model sets a flat rate for access to the entire dataset. It&#x27;s the simplest and most straightforward model, particularly useful for consumers who know they need access to all the data in a given dataset.</li>
 </ul>
-<doc-anchor-target id="base-cost-for-data-consumption">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#base-cost-for-data-consumption">#</doc-anchor-trigger>
-        <span>Base Cost for Data Consumption</span>
-    </h4>
-</doc-anchor-target>
 <doc-anchor-target id="base-cost-for-data-consumption">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#base-cost-for-data-consumption">#</doc-anchor-trigger>
