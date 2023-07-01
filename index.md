@@ -35,70 +35,6 @@ In the Hadar ecosystem, there are five key roles: Consumers, Curators, Suppliers
 |   Verifier    |           Verify datasets for quality           | Paid for consumer usage of verified datasets and by curators for data verification |                               None                                |
 |    Sponsor    |       Sponsor cost of accessing a dataset       |                 To be determined (recognition, tax benefits, etc.)                 |              Cover the costs of accessing a dataset               |
 
-<table>
-  <tr>
-   <td><strong>User Role</strong>
-   </td>
-   <td><strong>Action</strong>
-   </td>
-   <td><strong>Reward</strong>
-   </td>
-   <td><strong>Cost</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Consumer
-   </td>
-   <td>Access data
-   </td>
-   <td>None
-   </td>
-   <td>Pay for accessing datasets 
-   </td>
-  </tr>
-  <tr>
-   <td>Curator
-   </td>
-   <td>Request and verify datasets; set price terms
-   </td>
-   <td>Paid for consumer usage of requested datasets
-   </td>
-   <td>Pay suppliers and verifiers (if employed)  for dataset collection
-   </td>
-  </tr>
-  <tr>
-   <td>Supplier
-   </td>
-   <td>Provide high-quality datasets;  set price terms
-   </td>
-   <td>Paid for consumer usage of provided datasets and by curators for data provision
-   </td>
-   <td>None
-   </td>
-  </tr>
-  <tr>
-   <td>Verifier
-   </td>
-   <td>Verify datasets for quality
-   </td>
-   <td>Paid for consumer usage of verified datasets and by curators for data verification
-   </td>
-   <td>None
-   </td>
-  </tr>
-  <tr>
-   <td>Sponsor
-   </td>
-   <td>Sponsor cost of accessing a dataset
-   </td>
-   <td>To be determined (recognition, tax benefits, etc.)
-   </td>
-   <td>Cover the costs of accessing a dataset
-   </td>
-  </tr>
-</table>
-
-
 
 ### Consumers {#consumers}
 
@@ -108,8 +44,6 @@ Data scientists, researchers, or businesses who use datasets available in our da
 ### Curators {#curators}
 
 Place requests for datasets and allow Suppliers to bid on fulfilling those requests. Curators also set verification criteria that could be fulfilled by themselves or by Verifiers. They are responsible for setting price terms and signing off on the quality of datasets prior to them being made available for use by Consumers. Curators play a crucial role in maintaining the quality and diversity of data in the ecosystem.
-
-### Suppliers
 
 ### Suppliers {#suppliers}
 
@@ -132,8 +66,6 @@ Each role is designed with specific responsibilities and rewards to maintain a b
 ## Data Provisioning Process  {#data-provisioning-process}
 
 The following diagram gives a brief overview of how each of the aforementioned types of users uses the platform and interacts with each other:
-
-###
 
 ### Supplier-Led Dataset Publishing
 
@@ -266,8 +198,6 @@ Consumers can access the datasets through API requests. The cost of accessing th
 
 #### Transaction and Usage Records {#transaction-and-usage-records}
 
-#### Transaction and Usage Records
-
 - **Usage History:** Consumers have access to their usage history, which gives a detailed account of their data consumption. This includes the number of API requests, the datasets accessed, the total cost incurred, and the timestamp of access.
 - **Invoice Generation:** On a monthly basis, an invoice is generated for consumers. The invoice includes a breakdown of all the API requests and the corresponding costs.
 
@@ -295,8 +225,6 @@ Data suppliers and curators have the flexibility to customize the pricing for th
 * **Per-row micro-transaction pricing**: This model charges consumers for every individual row of data they access. It's a granular approach that allows for maximum flexibility in how much data a consumer wants to purchase.
 * **Bulk batch pricing:** This model offers pricing tiers based on the size of the data batch accessed (e.g., 10k rows at price point A, 50k rows at price point B). It allows consumers to access large amounts of data at a reduced cost per row.
 * **Single price for the entire dataset: **This model sets a flat rate for access to the entire dataset. It's the simplest and most straightforward model, particularly useful for consumers who know they need access to all the data in a given dataset.
-
-#### Base Cost for Data Consumption
 
 #### Base Cost for Data Consumption {#base-cost-for-data-consumption}
 
