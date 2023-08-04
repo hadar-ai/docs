@@ -3,47 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.741945246739">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.1.0.744473122340">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.0.3">
+    <meta name="generator" content="Retype 3.1.0">
 
     <!-- Primary Meta Tags -->
-    <title>Whitepaper</title>
-    <meta name="title" content="Whitepaper">
-    <meta name="description" content="In the rapidly evolving field of AI, data has become a crucial asset." />
+    <title>Hadar</title>
+    <meta name="title" content="Hadar">
+    <meta name="description" content="In the AI landscape, the value of data is undeniable, yet often, creators find their work utilized freely for AI training without their consent or...">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.hadar.ai/" />
+    <link rel="canonical" href="https://docs.hadar.ai/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.hadar.ai/">
-    <meta property="og:title" content="Whitepaper">
-    <meta property="og:description" content="In the rapidly evolving field of AI, data has become a crucial asset.">
-    <meta property="og:image" content="https://docs.google.com/drawings/d/12345/export/png">
+    <meta property="og:title" content="Hadar">
+    <meta property="og:description" content="In the AI landscape, the value of data is undeniable, yet often, creators find their work utilized freely for AI training without their consent or...">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.hadar.ai/">
-    <meta property="twitter:title" content="Whitepaper">
-    <meta property="twitter:description" content="In the rapidly evolving field of AI, data has become a crucial asset.">
-    <meta property="twitter:image" content="https://docs.google.com/drawings/d/12345/export/png">
+    <meta property="twitter:title" content="Hadar">
+    <meta property="twitter:description" content="In the AI landscape, the value of data is undeniable, yet often, creators find their work utilized freely for AI training without their consent or...">
 
-    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="resources/css/retype.css?v=3.0.3.741945246739" rel="stylesheet" />
+    <link href="resources/css/retype.css?v=3.1.0.744473122340" rel="stylesheet">
 
-    <script type="text/javascript" src="resources/js/config.js?v=3.0.3.741945246739" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=3.0.3.741945246739" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=3.1.0.744473122340" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/retype.js?v=3.1.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=3.1.0.744473122340" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
         <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
     
         <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
-            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
                 <!-- Mobile menu button skeleton -->
                 <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
                 <div v-cloak id="docs-sidebar-toggle"></div>
@@ -76,24 +74,22 @@
                         <!-- Search input mock -->
                         <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
                             <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
                             </div>
-        
-                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
-                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
                         </div>
         
-                        <!-- Mobile search button mock -->
+                        <!-- Mobile search button -->
                         <div class="flex items-center justify-center w-10 h-10 lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
                         </div>
         
-                        <!-- Dark mode switch placehokder -->
+                        <!-- Dark mode switch placeholder -->
                         <div class="w-10 h-10 lg:ml-2"></div>
         
-                        <!-- History button mock -->
+                        <!-- History button -->
                         <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
                         </div>
                     </div>
         
@@ -114,10 +110,10 @@
             
                 <!-- Render this div, if config.showSidebarFilter is `true` -->
                 <div class="flex items-center h-16 px-6">
-                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
                 </div>
             
-                <div class="pl-6 mb-4 mt-1">
+                <div class="pl-6 mt-1 mb-4">
                     <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
                     <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
                     <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
@@ -168,17 +164,27 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="whitepaper" class="break-words">
+<doc-anchor-target id="hadar" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#whitepaper">#</doc-anchor-trigger>
-        <span>Whitepaper</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hadar">#</doc-anchor-trigger>
+        <span>Hadar</span>
     </h1>
 </doc-anchor-target>
-<p>In the rapidly evolving field of AI, data has become a crucial asset. However two significant challenges are hampering progress: data isolation by large enterprises, and the difficulty of sourcing specialized data from niche verticals.</p>
-<p>Enterprises often guard their data closely, treating it as a proprietary asset. This creates an environment where innovation is stifled, and collaboration becomes difficult. Likewise, when developing AI models, access to diverse, high-quality datasets is crucial. These datasets, particularly in niche areas, are often scattered and hard to obtain.</p>
-<p>Hadar is our answer to these challenges. We envision a decentralized data bank, openly curated by the crowd, with accessibility at its core, aiming to democratize data and ignite innovation.</p>
-<p>By employing tokenomics, a system that uses tokens to incentivize specific behaviors, our platform encourages users to request, provide, verify, and maintain datasets. The contributors to these datasets stand to profit from their future use, the value of which is inherently tied to the data quality.</p>
-<p>Through Hadar, we aim to empower data scientists, researchers, and innovators, providing them with the specific data they need, regardless of their niche vertical.</p>
+<doc-anchor-target id="platform-for-creative-data-publishing-and-ethical-sourcing-for-ai">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#platform-for-creative-data-publishing-and-ethical-sourcing-for-ai">#</doc-anchor-trigger>
+        <span>Platform for creative data publishing and ethical sourcing for AI</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="overview">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#overview">#</doc-anchor-trigger>
+        <span>Overview</span>
+    </h1>
+</doc-anchor-target>
+<p>In the AI landscape, the value of data is undeniable, yet often, creators find their work utilized freely for AI training without their consent or compensation.</p>
+<p>Hadar is stepping in to transform this dynamic. We&#x27;re establishing a platform that empowers creative communities to share, control, and monetize their content for AI training and fostering a space for genuine collaboration and fair compensation. Through strategically designed tokenomics, our platform encourages high-quality content datasets that can be monetized, with profits linked to their future use and inherently tied to the quality of the content.</p>
+<p>Essentially, Hadar is revolutionizing how creative content is shared, utilized, and remunerated in the AI sphere, thereby initiating a new era of creative data accessibility, content creator recognition, and creative innovation.</p>
 <doc-anchor-target id="how-it-works">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#how-it-works">#</doc-anchor-trigger>
@@ -191,7 +197,7 @@
         <span>Stakeholders</span>
     </h2>
 </doc-anchor-target>
-<p>In the Hadar ecosystem, there are five key roles: Consumers, Curators, Suppliers, Verifiers, and Sponsors. Each role serves a unique function and has specific responsibilities, costs, and rewards.  It’s important to note that these roles are not mutually exclusive - we anticipate and encourage users to adopt multiple roles, fostering a dynamic, multi-faceted participation within the system.</p>
+<p>In the Hadar ecosystem, there are 4 key roles: <strong>Data Consumers</strong>, <strong>Data Supplier</strong>, <strong>Data Annotators</strong>, <strong>Sponsors</strong>. Each role serves a unique function and has specific responsibilities, costs, and rewards.  It’s important to note that these roles are not mutually exclusive - we anticipate and encourage users to adopt multiple roles</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -205,39 +211,33 @@
 <tbody>
 <tr>
 <td style="text-align: center;"><strong>User Role</strong></td>
-<td style="text-align: center;"><strong>Action</strong></td>
-<td style="text-align: center;"><strong>Reward</strong></td>
-<td style="text-align: center;"><strong>Cost</strong></td>
+<td style="text-align: center;"><strong>Actions</strong></td>
+<td style="text-align: center;"><strong>Rewards</strong></td>
+<td style="text-align: center;"><strong>Costs</strong></td>
 </tr>
 <tr>
-<td style="text-align: center;">Consumer</td>
-<td style="text-align: center;">Access data</td>
-<td style="text-align: center;">None</td>
-<td style="text-align: center;">Pay for accessing datasets</td>
+<td style="text-align: center;">Consumers</td>
+<td style="text-align: center;">Access and use unique art data for AI models</td>
+<td style="text-align: center;">High-quality, unique, and diverse datasets.</td>
+<td style="text-align: center;">Charged based on type, size of data.</td>
 </tr>
 <tr>
-<td style="text-align: center;">Curator</td>
-<td style="text-align: center;">Request and verify datasets; set price terms</td>
-<td style="text-align: center;">Paid for consumer usage of requested datasets</td>
-<td style="text-align: center;">Pay suppliers and verifiers (if employed)  for dataset collection</td>
+<td style="text-align: center;">Suppliers</td>
+<td style="text-align: center;">Publish data</td>
+<td style="text-align: center;">Ensure proper attributions and earn from its usage.</td>
+<td style="text-align: center;">Time, effort to curate, share, label.</td>
 </tr>
 <tr>
-<td style="text-align: center;">Supplier</td>
-<td style="text-align: center;">Provide high-quality datasets;  set price terms</td>
-<td style="text-align: center;">Paid for consumer usage of provided datasets and by curators for data provision</td>
-<td style="text-align: center;">None</td>
+<td style="text-align: center;">Annotators</td>
+<td style="text-align: center;">Annotate the data with additional attributes to aid training.</td>
+<td style="text-align: center;">Earn HAD tokens.</td>
+<td style="text-align: center;">Time and effort to annotate.</td>
 </tr>
 <tr>
-<td style="text-align: center;">Verifier</td>
-<td style="text-align: center;">Verify datasets for quality</td>
-<td style="text-align: center;">Paid for consumer usage of verified datasets and by curators for data verification</td>
-<td style="text-align: center;">None</td>
-</tr>
-<tr>
-<td style="text-align: center;">Sponsor</td>
-<td style="text-align: center;">Sponsor cost of accessing a dataset</td>
-<td style="text-align: center;">To be determined (recognition, tax benefits, etc.)</td>
-<td style="text-align: center;">Cover the costs of accessing a dataset</td>
+<td style="text-align: center;">Sponsors</td>
+<td style="text-align: center;">Fund the project or tasks on the platform.</td>
+<td style="text-align: center;">Visibility, potentially earn a return if project/task is successful.</td>
+<td style="text-align: center;">Financial investment.</td>
 </tr>
 </tbody>
 </table>
@@ -248,36 +248,28 @@
         <span>Consumers</span>
     </h3>
 </doc-anchor-target>
-<p>Data scientists, researchers, or businesses who use datasets available in our database to train AI models, analyze trends, or make informed decisions. Consumers access these datasets via our API and are charged based on the type, size, and complexity of data they require.</p>
-<doc-anchor-target id="curators">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#curators">#</doc-anchor-trigger>
-        <span>Curators</span>
-    </h3>
-</doc-anchor-target>
-<p>Place requests for datasets and allow Suppliers to bid on fulfilling those requests. Curators also set verification criteria that could be fulfilled by themselves or by Verifiers. They are responsible for setting price terms and signing off on the quality of datasets prior to them being made available for use by Consumers. Curators play a crucial role in maintaining the quality and diversity of data in the ecosystem.</p>
+<p>These are individuals or entities, such as AI developers, academic researchers, or businesses that seek to leverage the rich, unique content for various purposes. They can access these curated datasets via our API and will be charged based on the type, size, and complexity of data they require.</p>
 <doc-anchor-target id="suppliers">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#suppliers">#</doc-anchor-trigger>
         <span>Suppliers</span>
     </h3>
 </doc-anchor-target>
-<p>Supply/upload datasets for entry into the database. They can upload datasets on an ad-hoc basis, set pricing terms, and/or fulfll the dataset requirements of Curators. Suppliers are incentivized to provide high-quality and diverse datasets to increase their visibility and potential revenue on the platform.</p>
-<doc-anchor-target id="verifiers">
+<p>These are primarily artists and creators who own and produce the creative work, as well as platforms like online content curation websites. Suppliers can share, label, verify the quality and authenticity of the content, ensuring that proper attributions are maintained and content creators are fairly compensated. They can control how their work is used in AI training while earning from its usage.</p>
+<doc-anchor-target id="annotators">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#verifiers">#</doc-anchor-trigger>
-        <span>Verifiers</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#annotators">#</doc-anchor-trigger>
+        <span>Annotators</span>
     </h3>
 </doc-anchor-target>
-<p>They vet the quality of the data entered by Suppliers. Verifiers are an optional but valuable add-on. They can apply to be a verifier and tag themselves with relevant areas of expertise. They play a key role in ensuring the authenticity and quality of datasets on the platform.</p>
+<p>These are individuals or entities that annotate the data supplied by Suppliers. They can apply to be annotators and tag themselves with relevant areas of expertise. They enhance the quality of datasets on the platform, and play a critical role in doing so.</p>
 <doc-anchor-target id="sponsors">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#sponsors">#</doc-anchor-trigger>
         <span>Sponsors</span>
     </h3>
 </doc-anchor-target>
-<p>Put up liquid capital to pay for the cost of accessing one or more datasets. Sponsors could be philanthropic entities, businesses investing in AI research, or even governments. They play a crucial role in supporting the data ecosystem and fostering innovation.</p>
-<p>Each role is designed with specific responsibilities and rewards to maintain a balanced, self-sustaining data ecosystem. We invite you to contribute, learn, and profit in a way that suits your capabilities and needs.</p>
+<p>These are individuals, businesses, or organizations that fund the projects or tasks on the platform. Sponsors can gain visibility, contribute to the growth of the content and AI ecosystems, and potentially earn a return if the project or task they sponsor is successful.</p>
 <p>Each role is designed with specific responsibilities and rewards to maintain a balanced, self-sustaining data ecosystem. We invite you to contribute, learn, and profit in a way that suits your capabilities and needs.</p>
 <doc-anchor-target id="data-provisioning-process">
     <h2>
@@ -285,195 +277,42 @@
         <span>Data Provisioning Process</span>
     </h2>
 </doc-anchor-target>
-<p>The following diagram gives a brief overview of how each of the aforementioned types of users uses the platform and interacts with each other:</p>
-<doc-anchor-target id="supplier-led-dataset-publishing">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#supplier-led-dataset-publishing">#</doc-anchor-trigger>
-        <span>Supplier-Led Dataset Publishing</span>
-    </h3>
-</doc-anchor-target>
-<p>In the absence of specific Curator requests, our platform is still open for Suppliers to upload datasets, set price terms, foster competition, and promote the evolution of data resources through natural market choice.</p>
-<doc-anchor-target id="process-flow">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#process-flow">#</doc-anchor-trigger>
-        <span>Process Flow</span>
-    </h4>
-</doc-anchor-target>
+<p>Community members who have access to valuable datasets can act as Suppliers to publish datasets, set price terms, foster competition, and promote the evolution of data resources through natural market choice.</p>
 <ol>
 <li>A Supplier uploads a new dataset and describes its features using metadata.</li>
-<li>The Supplier can optionally request Verifiers to ensure the quality of the uploaded data. Automated Quality Control integrated into the platform will assess all uploaded data regardless of this choice.</li>
-<li>Following verification, the Supplier sets price terms for accessing the data. They can also choose to make the dataset free of charge, opting out of earning from consumer access.</li>
-<li>The dataset becomes publicly available via the platform&#x27;s API.</li>
-<li>If Verifiers were involved in the process, they receive a portion of the revenue generated from consumers accessing the data. However, if the dataset was made free of charge, no earnings are allocated to the Verifiers.</li>
+<li>The Supplier can optionally request Annotators to enhance the quality of the uploaded data. Automated Quality Control integrated into the platform will assess all uploaded data regardless of this choice.</li>
+<li>The Supplier sets price terms for accessing the data. They can also choose to make the dataset free of charge, opting out of earning from Data Consumer access.</li>
+<li>The dataset becomes publicly available to download or streamed via the platform&#x27;s API.</li>
 </ol>
-<doc-anchor-target id="process-flow">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#process-flow">#</doc-anchor-trigger>
-        <span>Process Flow</span>
-    </h4>
+<doc-anchor-target id="annotation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#annotation">#</doc-anchor-trigger>
+        <span>Annotation</span>
+    </h2>
 </doc-anchor-target>
-<ol>
-<li><p><strong>Curator creates a Tender:</strong> The Curator initiates the process by creating a tender, outlining the specific features and requirements of the desired dataset. Criteria need to be made public, examples include</p>
-<ul>
-<li><strong>Relevance</strong>: The data is relevant to the research question or use case.</li>
-<li><strong>Completeness</strong>: The data is comprehensive and includes all relevant information.</li>
-<li><strong>Accuracy</strong>: The data is accurate and verified through external sources, if necessary.</li>
-<li><strong>Consistency</strong>: The data is consistent and contains no obvious discrepancies.</li>
-<li><strong>Validity</strong>: The data is valid and meets any required formatting standards.</li>
-</ul>
-</li>
-<li><p>A Supplier uploads a new dataset and describes its features using metadata.</p>
-</li>
-<li><p>The Supplier can optionally request Verifiers to ensure the quality of the uploaded data. Automated Quality Control integrated into the platform will assess all uploaded data regardless of this choice.</p>
-</li>
-<li><p>Following verification, the Supplier sets price terms for accessing the data. They can also choose to make the dataset free of charge, opting out of earning from consumer access.</p>
-</li>
-<li><p>The dataset becomes publicly available via the platform&#x27;s API.</p>
-</li>
-<li><p>If Verifiers were involved in the process, they receive a portion of the revenue generated from consumers accessing the data. However, if the dataset was made free of charge, no earnings are allocated to the Verifiers.</p>
-</li>
-</ol>
-<doc-anchor-target id="curator-led-dataset-publishing">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#curator-led-dataset-publishing">#</doc-anchor-trigger>
-        <span>Curator-Led Dataset Publishing</span>
-    </h3>
-</doc-anchor-target>
-<p>Curators initiate data requests and select from bids offered by Suppliers and optionally, Verifiers. Data is uploaded, verified, and improved if necessary, before final approval and release.</p>
-<ul>
-<li>The data is not accessible via API at this stage. This prevents curators from using the data without quality sign-off, thus encouraging honesty and integrity in the process.</li>
-<li>Curators hold the final say on data quality. Verifiers can raise an issue and make recommendations on the final decisions.</li>
-</ul>
-<doc-anchor-target id="part-i-curator-led-data-request-and-bid-selection">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#part-i-curator-led-data-request-and-bid-selection">#</doc-anchor-trigger>
-        <span>Part I: Curator-Led Data Request and Bid Selection</span>
-    </h4>
-</doc-anchor-target>
-<ul>
-<li>The Suppliers and Verifiers receive tokens from the escrow, with the platform deducting a fee from their earnings.</li>
-<li>The dataset is then made accessible to all users via the platform API.</li>
-</ul>
-<ol start="4">
-<li><p><strong>Improvements and Deadlines:</strong> if the Curator (or Verifier)  requests improvements:</p>
-</li>
-<li><p>**Curator creates a Tender: **The Curator initiates the process by creating a tender, outlining the specific features and requirements of the desired dataset. Criteria need to be made public, examples include</p>
-<ul>
-<li><strong>Relevance</strong>: The data is relevant to the research question or use case.</li>
-<li><strong>Completeness</strong>: The data is comprehensive and includes all relevant information.</li>
-<li><strong>Accuracy</strong>: The data is accurate and verified through external sources, if necessary.</li>
-<li><strong>Consistency</strong>: The data is consistent and contains no obvious discrepancies.</li>
-<li><strong>Validity</strong>: The data is valid and meets any required formatting standards.</li>
-</ul>
-<p>They may also call for independent Verifiers to participate in the process. For extremely niche data sets, the Curator should expect to receive more costly bids. And vice versa.</p>
-</li>
-<li><p><strong>Bidders Respond:</strong> Suppliers and, if requested, Verifiers respond to the tender by submitting their respective bids for data supply and verification.</p>
-</li>
-<li><p><strong>Bid Matching</strong>: The Curator selects desirable bids from both Suppliers and Verifiers. Upon this selection, the required tokens, covering all chosen bids collectively, are withdrawn from the Curator&#x27;s wallet and escrowed by the platform.</p>
-</li>
-</ol>
-<ul>
-<li>There is a 180-day deadline for these changes.</li>
-</ul>
-<doc-anchor-target id="part-ii-data-entry-and-quality-control">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#part-ii-data-entry-and-quality-control">#</doc-anchor-trigger>
-        <span>Part II: Data entry and quality control</span>
-    </h4>
-</doc-anchor-target>
-<ol>
-<li><strong>Dataset Submission:</strong> The supplier submits the dataset into the database using various methods, such as API or direct upload.</li>
-<li><strong>Quality Assurance:</strong> The Curator and Verifiers inspect the data to validate its quality. They use platform-provided tools to ensure the data meets the tender requirements. The review will be conducted on the full data set, which will be made available through our platform dashboard interface.
-<ul>
-<li>The data is not accessible via API at this stage. This prevents curators from using the data without quality sign-off, thus encouraging honesty and integrity in the process.</li>
-<li>Curators have the final say on data quality. Verifiers can raise an issue and make recommendations on the final decisions.</li>
-</ul>
-</li>
-<li><strong>Sign-off and Reward Distribution</strong>: If the Curator validates the data:
-<ul>
-<li>The Suppliers and Verifiers receive tokens from the escrow, with the platform deducting a fee from their earnings.</li>
-<li>The dataset is then made accessible to all users via the platform API.</li>
-</ul>
-</li>
-<li><strong>Improvements and Deadlines:</strong> If the Curator (or Verifier)  requests improvements:
-<ul>
-<li>The tokens remain in escrow, and the data remains unavailable via the API.</li>
-<li>The Curator provides specific feedback, prompting Suppliers to submit updated data for another round of verification.</li>
-<li>There is a 180-day deadline for these changes.
-<ul>
-<li>If the Curator fails to sign off on the improved data within this period, approval is automatically assumed.</li>
-<li>If the Suppliers do not submit the revised data within this period, the request is deemed a failure, and the Curator sign-off becomes impossible. In such a case, the escrowed tokens are returned to the Curator, and the dataset is discarded.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-<doc-anchor-target id="dispute-resolution-process">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#dispute-resolution-process">#</doc-anchor-trigger>
-        <span>Dispute Resolution Process</span>
-    </h3>
-</doc-anchor-target>
-<p><figure class="content-center">
-    <img src="https://docs.google.com/drawings/d/12345/export/png" alt="drawing" />
-    <figcaption class="caption">drawing</figcaption>
-</figure>
-</p>
-<p>If a Supplier disputes a verifier&#x27;s decision due to perceived inaccuracies, the following steps are taken:</p>
-<ul>
-<li>**Dispute Initiation: **The Supplier initiates a dispute and stakes collateral amounting to 25% of the rewards they would have received had the data been approved.</li>
-<li><strong>Independent Verifiers Selection:</strong> The platform randomly selects a group of independent verifiers from a pool of trusted and qualified platform users, ensuring they possess the relevant expertise and experience.</li>
-<li><strong>Data Evaluation:</strong> The selected verifiers receive the disputed data and assess it using the same criteria as the initial verifiers.</li>
-<li><strong>Dispute Resolution:</strong>
-<ul>
-<li>If the independent review concludes that the initial verifiers&#x27; reviews were unjust, the following occurs:
-<ul>
-<li>The staked collateral is returned to the Supplier.</li>
-<li>The Supplier is compensated, and the data is accepted into the database.</li>
-<li>The independent verifiers share the revenue generated from future API consumption requests.</li>
-</ul>
-</li>
-<li>If the independent review corroborates the initial verdict:
-<ul>
-<li>The dispute is deemed resolved.</li>
-<li>The staked collateral is confiscated from the Supplier and divided evenly among the independent verifiers.</li>
-<li>The disputed data is removed from the platform.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>This process aims to maintain the integrity and reliability of the platform&#x27;s datasets by ensuring a fair and unbiased review system.</p>
+<p>Annotators are individuals or entities who wish to enhance the metadata of data by tagging it with additional labels and attributes. Good annotations enhance the value of a dataset by making it possible to train models on the data more accurately.</p>
+<p>Initially, all annotation work will be vetted by the Hadar team prior to acceptance into the dataset. Successful annotations will be rewarded in the form of our platform token - HAD (see below).</p>
+<p>Over time, as the no. of annotations and overall platform activity scales upwards we will introduce a more decentralized mechanism of vetting annotations.</p>
 <doc-anchor-target id="pricing-and-payments">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#pricing-and-payments">#</doc-anchor-trigger>
         <span>Pricing and Payments</span>
     </h2>
 </doc-anchor-target>
-<p>The platform is designed to be self-sustaining. It accomplishes this through priced access to data as well as monetary incentives for users who contribute and verify high-quality datasets. All bid/offer pricing and API fees are denominated in USD.</p>
+<p>The platform is designed to be self-sustaining. It accomplishes this through priced access to data as well as monetary incentives for users who contribute high-quality datasets. All bid/offer pricing and API fees are denominated in USD (US dollars).</p>
 <doc-anchor-target id="data-consumption-and-payment">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#data-consumption-and-payment">#</doc-anchor-trigger>
         <span>Data Consumption and Payment</span>
     </h3>
 </doc-anchor-target>
-<p>Consumers can access the datasets through API requests. The cost of accessing these datasets is set by the data suppliers or curators. These costs are automatically deducted from the consumer&#x27;s account or charged to their credit card. The revenue from the API requests is then split between the platform and the original curators, verifiers, and suppliers of the data.</p>
-<doc-anchor-target id="data-consumption-and-payment">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#data-consumption-and-payment">#</doc-anchor-trigger>
-        <span>Data Consumption and Payment</span>
-    </h3>
-</doc-anchor-target>
+<p>Consumers can access the datasets through API requests. The cost of accessing these datasets is set by the data Suppliers. These costs are automatically deducted from the consumer&#x27;s account or charged to their credit card. The revenue from the API requests is then split between the platform and the original Suppliers of the data.</p>
 <doc-anchor-target id="transaction-and-usage-records">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#transaction-and-usage-records">#</doc-anchor-trigger>
         <span>Transaction and Usage Records</span>
     </h4>
 </doc-anchor-target>
-<ul>
-<li><strong>Usage History:</strong> Consumers have access to their usage history, which gives a detailed account of their data consumption. This includes the number of API requests, the datasets accessed, the total cost incurred, and the timestamp of access.</li>
-<li><strong>Invoice Generation:</strong> On a monthly basis, an invoice is generated for consumers. The invoice includes a breakdown of all the API requests and the corresponding costs.</li>
-</ul>
 <ul>
 <li><strong>Usage History:</strong> Consumers have access to their usage history, which gives a detailed account of their data consumption. This includes the number of API requests, the datasets accessed, the total cost incurred, and the timestamp of access.</li>
 <li><strong>Invoice Generation:</strong> On a monthly basis, an invoice is generated for consumers. The invoice includes a breakdown of all the API requests and the corresponding costs.</li>
@@ -485,55 +324,34 @@
     </h4>
 </doc-anchor-target>
 <p>If consumers have any disputes regarding their usage or the billed amount, they can raise a dispute. The platform will then review the dispute and take appropriate action based on the evidence provided and the platform&#x27;s policies.</p>
-<doc-anchor-target id="pricing-models">
+<doc-anchor-target id="pricing">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#pricing-models">#</doc-anchor-trigger>
-        <span>Pricing Models</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pricing">#</doc-anchor-trigger>
+        <span>Pricing</span>
     </h3>
 </doc-anchor-target>
-<p>If consumers have any disputes regarding their usage or the billed amount, they can raise a dispute. The platform will then review the dispute and take appropriate action based on the evidence provided and the platform&#x27;s policies.</p>
-<doc-anchor-target id="set-by-curators-and-suppliers">
+<doc-anchor-target id="set-by-suppliers">
     <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#set-by-curators-and-suppliers">#</doc-anchor-trigger>
-        <span>Set by Curators and Suppliers</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#set-by-suppliers">#</doc-anchor-trigger>
+        <span>Set by Suppliers</span>
     </h4>
 </doc-anchor-target>
-<p>Data suppliers and curators have the flexibility to customize the pricing for their datasets, providing scalability and versatility for data consumers. Here are the possible pricing models:</p>
-<ul>
-<li><strong>Per-row micro-transaction pricing</strong>: This model charges consumers for every individual row of data they access. It&#x27;s a granular approach that allows for maximum flexibility in how much data a consumer wants to purchase.</li>
-<li><strong>Bulk batch pricing:</strong> This model offers pricing tiers based on the size of the data batch accessed (e.g., 10k rows at price point A, 50k rows at price point B). It allows consumers to access large amounts of data at a reduced cost per row.</li>
-<li>**Single price for the entire dataset: **This model sets a flat rate for access to the entire dataset. It&#x27;s the simplest and most straightforward model, particularly useful for consumers who know they need access to all the data in a given dataset.</li>
-</ul>
+<p><strong>Per-row micro-transaction pricing</strong>: This model charges consumers for every individual row of data they access. It&#x27;s a granular approach that allows for maximum flexibility in how much data a consumer wants to purchase and use.<br />
+The price of the dataset will be locked in for the given Consumer’s lifetime usage of the dataset. Suppliers can update the dataset price at any point in time, but it will only impact the future Consumer’s cost.</p>
 <doc-anchor-target id="base-cost-for-data-consumption">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#base-cost-for-data-consumption">#</doc-anchor-trigger>
         <span>Base Cost for Data Consumption</span>
     </h4>
 </doc-anchor-target>
-<p>Aside from the specific pricing models set by suppliers and curators, there will be a base cost associated with consuming data via the platform. This cost is measured in USD per gigabyte accessed via the API. The exact cost will be determined closer to the platform&#x27;s production launch once our infrastructure costs are finalized.</p>
-<ul>
-<li>New dataset creation payouts: The platform takes a one-off 25% commission from the earnings of suppliers and verifiers for new dataset creations.</li>
-<li>API consumption payouts: A 20% commission is also applied to the earnings of suppliers, verifiers, and curators for API data consumption.</li>
-</ul>
+<p>Aside from the specific pricing models set by Data Suppliers, there will be a base cost associated with consuming data via the platform. This cost is measured in USD per gigabyte accessed via the API. The exact cost will be determined closer to the platform&#x27;s production launch once our infrastructure costs are finalised.</p>
 <doc-anchor-target id="commission-structure">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#commission-structure">#</doc-anchor-trigger>
         <span>Commission Structure</span>
     </h4>
 </doc-anchor-target>
-<p>To support the ongoing development, maintenance, and improvement of the platform, a commission on revenue earned by curators, suppliers, and verifiers is charged:</p>
-<ol>
-<li><strong>Dataset Selection:</strong> A sponsor begins by selecting a dataset they wish to sponsor. This could be based on the potential social impact, commercial value, or the sponsor&#x27;s specific interest in the dataset&#x27;s subject matter.</li>
-<li><strong>Funding Allocation:</strong> Next, the sponsor adds capital to the platform to cover the costs of consumers accessing the sponsored dataset. This capital can be added using various methods supported by the platform.</li>
-<li><strong>Sponsorship Announcement:</strong> Upon successful allocation of funds, the sponsor can proceed to announce their sponsorship. The platform will label the sponsored datasets, helping consumers to identify datasets that can be accessed freely or at a reduced cost.</li>
-<li><strong>Monitoring Sponsorship Usage:</strong> Sponsors can track the usage of their sponsored datasets. The platform provides detailed statistics, such as the number of consumers using the sponsored dataset, total costs incurred, and remaining sponsorship funds. This data should help sponsors understand the impact of their sponsorship and plan future sponsorships.</li>
-<li><strong>Top-Up or End Sponsorship:</strong> Depending on the usage and the sponsor&#x27;s intent, they can choose to add more funds to continue the sponsorship or decide to end the sponsorship when the allocated funds are exhausted. Upon ending the sponsorship, the dataset will no longer be labeled as sponsored on the platform.</li>
-</ol>
-<p>This sponsorship model fosters data democratization by encouraging the availability of datasets to a wider user base, promoting research and development, and potentially uncovering innovative use cases.</p>
-<ul>
-<li>New dataset creation payouts: The platform takes a one-time 25% commission from the earnings of suppliers and verifiers for new dataset creations.</li>
-<li>API consumption payouts: A 20% commission is applied to the earnings of suppliers, verifiers, and curators for API data consumption.</li>
-</ul>
+<p>To support the ongoing development, maintenance, and improvement of the platform, a 20% commission is applied to the earnings of Suppliers.</p>
 <doc-anchor-target id="sponsoring-data-access">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#sponsoring-data-access">#</doc-anchor-trigger>
@@ -541,30 +359,23 @@
     </h3>
 </doc-anchor-target>
 <p>For users who wish to sponsor the cost of accessing one or more datasets, they can follow the following process</p>
-<ul>
-<li><strong>HAD Payments:</strong> Users receiving payment in HAD have the added benefit of staking, subject to local laws and regulations.  The platform uses USDC revenue to purchase HAD from a DEX, which is then deposited into a staking contract on the recipient&#x27;s behalf. Recipients can unstake their HAD at any time, offering them flexibility and control over their earnings.</li>
-<li><strong>USDC and USD Payments</strong>: Users who choose to receive payment in USDC or USD will receive their funds directly, with no option to stake.</li>
-</ul>
 <ol>
-<li>**Dataset Selection: **A sponsor begins by selecting a dataset they wish to sponsor. This could be based on the potential social impact, commercial value, or the sponsor&#x27;s specific interest in the dataset&#x27;s subject matter.</li>
-<li>**Funding Allocation: **Next, the sponsor adds capital to the platform to cover the costs of consumers accessing the sponsored dataset. This capital can be added using various methods supported by the platform.</li>
-<li>**Sponsorship Announcement: **Upon successful allocation of funds, the sponsor can proceed to announce their sponsorship. The platform will label the sponsored datasets, helping consumers identify datasets that can be accessed freely or at a reduced cost.</li>
-<li>**Monitoring Sponsorship Usage: **Sponsors can track the usage of their sponsored datasets. The platform provides detailed statistics, such as the number of consumers using the sponsored dataset, total costs incurred, and remaining sponsorship funds. This data should help sponsors understand the impact of their sponsorship and plan future sponsorships.</li>
-<li>**Top-Up or End Sponsorship: **Depending on the usage and the sponsor&#x27;s intent, they can choose to add more funds to continue the sponsorship or decide to end the sponsorship when the allocated funds are exhausted. Upon ending the sponsorship, the dataset will no longer be labeled as sponsored on the platform.</li>
+<li><strong>Dataset Selection:</strong> A sponsor begins by selecting a dataset they wish to sponsor. This could be based on the potential social impact, commercial value, or the sponsor&#x27;s specific interest in the dataset&#x27;s subject matter.</li>
+<li><strong>Funding Allocation:</strong> Next, the sponsor adds capital to the platform to cover the costs of consumers accessing the sponsored dataset.</li>
+<li><strong>Sponsorship Announcement:</strong> Upon successful allocation of funds, the sponsor can proceed to announce their sponsorship. The platform will label the sponsored datasets, helping consumers identify datasets that can be accessed freely or at a reduced cost.</li>
+<li><strong>Monitoring Sponsorship Usage:</strong> Sponsors can track the usage of their sponsored datasets. The platform provides detailed statistics, such as the number of consumers using the sponsored dataset, total costs incurred, and remaining sponsorship funds. This data should help sponsors understand the impact of their sponsorship and plan future sponsorships.</li>
+<li><strong>Top-Up or End Sponsorship:</strong> Depending on the usage and the sponsor&#x27;s intent, they can choose to add more funds to continue the sponsorship or decide to end the sponsorship when the allocated funds are exhausted. Upon ending the sponsorship, the dataset will no longer be labeled as sponsored on the platform.</li>
 </ol>
 <p>This sponsorship model fosters data democratization by encouraging the availability of datasets to a wider user base, promoting research and development, and potentially uncovering innovative use cases.</p>
-<doc-anchor-target id="payment-method">
+<doc-anchor-target id="payment-currency">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#payment-method">#</doc-anchor-trigger>
-        <span>Payment Method</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#payment-currency">#</doc-anchor-trigger>
+        <span>Payment Currency</span>
     </h3>
 </doc-anchor-target>
-<p>Users have flexibility in the form of payment they receive. They can choose to be paid in USDC, USD, or our native token HAD.</p>
-<ul>
-<li><strong>HAD Payments:</strong> Users receiving payment in HAD have the added benefit of staking, subject to local laws and regulations.  The platform uses USDC revenue to purchase HAD from a DEX, which is then deposited into a staking contract on the recipient&#x27;s behalf. Recipients can unstake their HAD at any time, offering them flexibility and control over their earnings.</li>
-<li><strong>USDC and USD Payments</strong>: Users who choose to receive payment in USDC or USD will receive their funds directly, with no option to stake.</li>
-</ul>
+<p>All dataset access is priced in USD. The preferred payment currency is also USD and/or the USDC stablecoin. This is to ensure predictability for both Consumers and Suppliers.</p>
 <p>In all cases, users can freely withdraw their funds from the platform, offering them full control over their earnings.</p>
+<p>In the future, once our platform token - HAD - is established and distributed amongst our community, we may enable HAD as an optional alternative currency with which to make and receive payments.</p>
 <doc-anchor-target id="additional-features">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#additional-features">#</doc-anchor-trigger>
@@ -580,9 +391,9 @@
 <p>Our platform will provide automated tools and plugins to measure data completeness and validity. Automated quality control measures include:</p>
 <ul>
 <li><strong>Completeness</strong>: Check for missing, duplicate, outlier, or null values</li>
-<li><strong>Validity</strong>: Check for formatting errors, such as inconsistent data types or invalid characters</li>
+<li><strong>Validity</strong>: Check for formatting errors, such as inconsistent data types</li>
 </ul>
-<p>These checks are standard, publicly disclosed, and flag data that falls below a specified threshold. Curators may reduce or require additional automated checks, and suppliers are mandated to rectify or provide explanations for flagged data.</p>
+<p>These checks are standard, publicly disclosed, and flag data that falls below a specified threshold. Suppliers may reduce or require additional automated checks, and Suppliers are mandated to rectify or provide explanations for flagged data.</p>
 <doc-anchor-target id="open-source-data-verification-tooling">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#open-source-data-verification-tooling">#</doc-anchor-trigger>
@@ -606,7 +417,7 @@
 </doc-anchor-target>
 <p>Suppliers, when uploading data, are required to provide rich metadata to facilitate seamless data search.</p>
 <p>We will allow for subsets of a dataset to be tagged with additional labels. Such tagged subsets will then be fetchable via the API. This will allow users to train models on subsets of a dataset that may have particular properties that are useful to them.</p>
-<p>Tagging will usually be done by curators, suppliers, and verifiers on a row-by-row basis. Batch tagging of a selection of rows will also be possible.</p>
+<p>Tagging will usually be done by Suppliers and Annotators on a row-by-row basis. Batch tagging of a selection of rows will also be possible.</p>
 <doc-anchor-target id="centralized-storage">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#centralized-storage">#</doc-anchor-trigger>
@@ -614,202 +425,45 @@
     </h3>
 </doc-anchor-target>
 <p>Our platform utilizes commercial cloud-hosting services for data storage to optimize data availability and manage costs effectively. To ensure low-latency access worldwide we will employ CDNs and Edge functions where necessary.</p>
-<doc-anchor-target id="governance">
+<doc-anchor-target id="community-governance">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#governance">#</doc-anchor-trigger>
-        <span>Governance</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#community-governance">#</doc-anchor-trigger>
+        <span>Community governance</span>
     </h1>
 </doc-anchor-target>
-<p>Our platform is managed by a Decentralized Autonomous Organization (DAO) system, which ensures that no single entity or person can make unilateral decisions about the data. This helps prevent data isolation and ensures that decision-making power is distributed among the community, promoting transparency and accountability. Our governance token - “HAD” - has a capped supply of 10,000,000 tokens.</p>
-<doc-anchor-target id="staking-and-rewards">
+<p>We want our community to be actual stakeholders in our platform. With this in mind, we aim to introduce our community cryptocurrency token - HAD - as both a means of rewarding engagement with our platform and providing a voice for community members in shaping the future of the platform and ecosystem.</p>
+<p>HAD is minted on Ethereum, a blockchain network that uses an environmentally friendly proof-of-stake consensus algorithm and is secured by $40 billion+ of distributed capital.</p>
+<doc-anchor-target id="staking">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#staking-and-rewards">#</doc-anchor-trigger>
-        <span>Staking and Rewards</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#staking">#</doc-anchor-trigger>
+        <span>Staking</span>
     </h2>
 </doc-anchor-target>
-<p>Stakeholders who acquire and stake HAD tokens on the platform are entitled to a proportionate share of 50% of our platform&#x27;s revenue.</p>
-<p>Staking encourages active participation and increases the chances of selection for dataset verification tasks. Verifiers who maintain a stake exceeding 500 HAD for a period longer than 90 days have an increased probability of being chosen to verify a dataset. This likelihood is reflected in a verifier&#x27;s &quot;credibility&quot; score, visible next to their profile ID. The score integrates various factors, including the number of successful verifications, and amount and duration of staked HAD, among others.</p>
+<p>Holders of our HAD community token can “lock” some or all of their HAD balance within the platform in the form of “staking”. Doing this increases the scarcity of HAD and is ultimately beneficial to our community. As a reward for staking, holders will obtain:</p>
+<ul>
+<li>Discounts on the fees charged by the platform to Data Consumers.</li>
+<li>Discounts on the fees taken by the platform from the earnings of Data Suppliers.</li>
+</ul>
+<p>We also plan to investigate whether it is legally possible for us to distribute platform profits to stakers.</p>
 <doc-anchor-target id="treasury">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#treasury">#</doc-anchor-trigger>
         <span>Treasury</span>
     </h2>
 </doc-anchor-target>
-<p>All platform-generated fees, denominated in USDC, contribute to the platform&#x27;s treasury, which is under DAO governance. The DAO can vote to utilize a portion of the treasury funds to buy back and burn a part of the HAD circulating supply from the market. This action is intended to induce scarcity and add further value to the token.</p>
-<doc-anchor-target id="tokenomics">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tokenomics">#</doc-anchor-trigger>
-        <span>Tokenomics</span>
-    </h2>
-</doc-anchor-target>
-<p>HAD tokens are only available through token sales and subsequent exchanges. This system ensures a controlled supply and a stable, predictable token economy. The self-sustaining economic model and aligned incentives across all users are designed to support a vibrant and thriving platform.</p>
+<p>All platform earnings contribute to the platform&#x27;s treasury, which is partially under community governance.</p>
+<p>Additionally, all HAD earned by other stakeholders and platform contributors will be paid out from the treasury. The treasury also receives all HAD paid in by platform contributors. We aim to be self-sustaining over time.</p>
 <doc-anchor-target id="distribution">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#distribution">#</doc-anchor-trigger>
         <span>Distribution</span>
     </h2>
 </doc-anchor-target>
-<table>
-  <tr>
-   <td><strong>Total supply</strong>
-   </td>
-   <td><p style="text-align: right">
-10,000,000</p>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong><em>Vesting (months):</em></strong>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Lock-up period</strong>
-   </td>
-   <td><p style="text-align: right">
-12</p>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Vesting duration</strong>
-   </td>
-   <td><p style="text-align: right">
-48</p>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong><em>Allocations:</em></strong>
-   </td>
-   <td><p style="text-align: right">
-<strong><em>%</em></strong></p>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>DEX liquidity</strong>
-   </td>
-   <td><p style="text-align: right">
-5</p>
-   </td>
-   <td><p style="text-align: right">
-500,000</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Founders</strong>
-   </td>
-   <td><p style="text-align: right">
-15</p>
-   </td>
-   <td><p style="text-align: right">
-1,500,000</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Employee pool</strong>
-   </td>
-   <td><p style="text-align: right">
-15</p>
-   </td>
-   <td><p style="text-align: right">
-1,500,000</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Investors</strong>
-   </td>
-   <td><p style="text-align: right">
-10</p>
-   </td>
-   <td><p style="text-align: right">
-1,000,000</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Advisors</strong>
-   </td>
-   <td><p style="text-align: right">
-5</p>
-   </td>
-   <td><p style="text-align: right">
-500,000</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Launch partners</strong>
-   </td>
-   <td><p style="text-align: right">
-10</p>
-   </td>
-   <td><p style="text-align: right">
-1,000,000</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Treasury</strong>
-   </td>
-   <td><p style="text-align: right">
-40</p>
-   </td>
-   <td><p style="text-align: right">
-2,000,000</p>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td><p style="text-align: right">
-100</p>
-   </td>
-   <td><p style="text-align: right">
-10,000,000</p>
-   </td>
-  </tr>
-</table>
-<doc-anchor-target id="licensing">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#licensing">#</doc-anchor-trigger>
-        <span>Licensing</span>
-    </h2>
-</doc-anchor-target>
-<p>All data will be under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike</a> license.</p>
+<p>HAD tokens will initially only be available through engagement with the platform. We will detail the tokenomics of our token in the near future.</p>
 
                                 
                                 <!-- Required only on API pages -->
-                                <doc-toolbar-member-filter-no-results />
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
                             </div>
                             <footer class="clear-both">
                             
@@ -851,6 +505,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Whitepaper", isRoot: true, level: 0, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Hadar", isRoot: true, level: 0, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
